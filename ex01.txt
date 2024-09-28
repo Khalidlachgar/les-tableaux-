@@ -2,16 +2,10 @@
 
 int main() {
     
-    int t[5];
-    
-    
-    
-    
-    for (int i = 0; i < t[5]; i++) {
-        printf("entrer :");
-        scanf ("%d",&t[i]);
-        
-
+    int T[5]; 
+   
+    for (int i = 0; i < taille; i++) {
+        printf("%d\n", tableau[i]);
     }
 
     return 0;
