@@ -1,0 +1,25 @@
+  #include <stdio.h>
+
+int main() {
+  int n,T[n];
+  printf ("entrer l'element de tableau est :");
+  scanf ("%d",&n);
+  
+  printf ("entrer les %d element de tableau :\n",n);
+
+  
+  
+  for (int i = 0 ; i <n ; i++){
+  printf("element %d : ", i + 1);
+        scanf("%d", &T[i]);
+    }
+
+
+    printf("Les elements de tableau est :\n");
+    for (int i = 0; i < n; i++) {
+        printf("%d\n", T[i]);
+    
+  }
+
+    return 0;
+}

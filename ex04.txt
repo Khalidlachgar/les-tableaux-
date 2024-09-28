@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+   int T[6];
+   for (int i=0;i<6;i++){
+       printf ("entrer :");
+       scanf ("%d",&T[i]);
+   }
+   int max=T[0];
+ for (int i=0;i<6;i++){
+     if (T[i] < max);
+     max=T[i];
+ }
+ printf ("e nombre maximun est :%d",max);
+ 
+    return 0;
+}
